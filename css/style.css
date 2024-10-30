@@ -361,6 +361,36 @@ list-style-type: decimal-leading-zero;
     font-weight: bold;
     text-align: center;
 }
+.pimd {
+    background-color: rgb(255, 177, 81);
+}
+.bdd {
+    background-color: green;
+}
+.sasp {
+    background-color: yellow;
+}
+.dasp {
+    background-color: greenyellow;
+}
+.prog {
+    background-color: lightblue;
+}
+.sisi {
+    background-color: darkgreen;
+}
+.lmsg {
+    background-color: orange;
+}
+.ipcg {
+    background-color: pink;
+}
+.ende {
+    background-color: purple;
+}
+.ipe {
+    background-color: palevioletred;
+}
 .horario{
     text-align: center;
     width: 80%;
