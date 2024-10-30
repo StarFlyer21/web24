@@ -289,7 +289,7 @@ section img:hover {
     cursor: pointer; /* Cambia a pointer para indicar que es clicable */
     width: 300px;
     opacity: 1;
-    filter: brightness(0.5) contrast(120%); /* Imagen se oscurece y se ajusta el contraste */
+    filter: contrast(100%); /* Imagen se oscurece y se ajusta el contraste */
 }
 
 section img:hover + .overlay {
