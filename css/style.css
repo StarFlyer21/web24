@@ -307,7 +307,7 @@ section img:hover + .overlay {
     font-weight: bold;
 }
 #enlaces a {
-    color: blue;
+    color: rgb(172, 172, 200);
     text-decoration: underline;
     font-size: 20px;
 }
