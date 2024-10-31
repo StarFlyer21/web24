@@ -361,6 +361,11 @@ list-style-type: decimal-leading-zero;
     font-weight: bold;
     text-align: center;
 }
+.horario {
+    width: 80%;
+    margin: 0 auto;
+    background-color: gray;
+}
 .pimd {
     background-color: rgb(255, 177, 81);
 }
@@ -371,10 +376,10 @@ list-style-type: decimal-leading-zero;
     background-color: yellow;
 }
 .dasp {
-    background-color: greenyellow;
+    background-color: rgb(99, 147, 28);
 }
 .prog {
-    background-color: lightblue;
+    background-color: rgb(0, 102, 136);
 }
 .sisi {
     background-color: darkgreen;
@@ -383,13 +388,13 @@ list-style-type: decimal-leading-zero;
     background-color: orange;
 }
 .ipcg {
-    background-color: pink;
+    background-color: rgb(255, 28, 66);
 }
 .ende {
     background-color: purple;
 }
 .ipe {
-    background-color: palevioletred;
+    background-color: rgb(121, 8, 46);
 }
 .horario{
     text-align: center;
@@ -399,8 +404,19 @@ list-style-type: decimal-leading-zero;
 .col3 {
     width: 33,3%;
     float: left;
-    display: block;
 }
 .col3 img{
     padding: 4px;
+}
+video {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+}
+audio {
+    display: block;
+    margin: 0 auto;
+}
+.text-center {
+    text-align: center;
 }
