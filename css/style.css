@@ -420,3 +420,13 @@ audio {
 .text-center {
     text-align: center;
 }
+.formlogin {
+    float: left;
+    width: 50%;
+}
+.formlogin input{
+    background-color: #213d1e;
+}
+.formlogin placeholder{
+
+}
