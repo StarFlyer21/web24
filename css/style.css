@@ -109,7 +109,7 @@ body {
 [class*="col-"] {
     padding: 15px;
 }
-
+a
 /*.shadow {
     box-shadow: 0 0 20px ;
     border-radius: 10px;
@@ -133,7 +133,7 @@ nav li a {
     color: #E5E5E5; /* Texto inicial en gris claro */
     text-decoration: none;
     padding: 10px 15px;
-    transition: all 0.3s ease;
+    transition: all 0.5s ease;
     border-radius: 5px;
 }
 
@@ -160,7 +160,7 @@ nav li a:hover {
         font-size: 30px;
     }
     nav ul {
-        background-color: rgb(244, 254, 243); /* Fondo claro para móviles */
+        background-color: #1F1F1F; /* Fondo claro para móviles */
     }
 }
 .text-right{
@@ -270,6 +270,7 @@ section img {
 }
 
 /* Estilo del overlay que contiene el texto */
+
 section .overlay {
     position: fixed;
     bottom: 0; /* Texto al fondo, puedes cambiar a 'top' o 'center' si prefieres */
@@ -429,4 +430,20 @@ audio {
 }
 .formlogin placeholder{
 
+}
+.formregister {
+    float: left;
+    width: 50%;
+}
+.formregister input{
+    background-color: #213d1e;
+}
+.formregister placeholder{
+
+}
+.select{
+    background-color: #213d1e;
+}
+.formregister textarea{
+    background-color: #213d1e;
 }
