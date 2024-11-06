@@ -447,3 +447,13 @@ audio {
 .formregister textarea{
     background-color: #213d1e;
 }
+.btn {
+    border: 0;
+    padding: 8px 20px;
+    border-radius: 6px;
+    font-size: 15px;
+}
+.btn-blue {
+    background-color: rgb(22, 3, 68);
+    color: white;
+}
