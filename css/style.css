@@ -365,37 +365,38 @@ list-style-type: decimal-leading-zero;
 .horario {
     width: 80%;
     margin: 0 auto;
-    background-color: gray;
+    background-color: #f0f0f0;
+    color: #197f86;
 }
 .pimd {
     background-color: rgb(255, 177, 81);
 }
 .bdd {
-    background-color: green;
+    background-color: #81ff80;
 }
 .sasp {
-    background-color: yellow;
+    background-color: #28c8c8;
 }
 .dasp {
-    background-color: rgb(99, 147, 28);
+    background-color: #ffff63;
 }
 .prog {
-    background-color: rgb(0, 102, 136);
+    background-color: #64b4ef;
 }
 .sisi {
-    background-color: darkgreen;
+    background-color: #65aa97;
 }
 .lmsg {
-    background-color: orange;
+    background-color: #d2d36c;
 }
 .ipcg {
-    background-color: rgb(255, 28, 66);
+    background-color: #ffa264;
 }
 .ende {
-    background-color: purple;
+    background-color: #c9a0c8;
 }
 .ipe {
-    background-color: rgb(121, 8, 46);
+    background-color: #fe8081;
 }
 .horario{
     text-align: center;
