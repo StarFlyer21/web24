@@ -341,8 +341,8 @@ list-style-type: decimal-leading-zero;
 }
 #listas .listadefcustom dt{
     display: inline;
-    background-color: #d42929;
-    color: blueviolet;
+    background-color: #3A6B35;
+    color: #1F1F1F;
     font-size: 22px;
     font-weight: bold;
 
@@ -431,9 +431,9 @@ audio {
 .formlogin input{
     background-color: #213d1e;
 }
-.formlogin placeholder{
+/*.formlogin placeholder{
 
-}
+}*/
 .formregister {
     float: left;
     width: 50%;
@@ -441,9 +441,9 @@ audio {
 .formregister input{
     background-color: #213d1e;
 }
-.formregister placeholder{
+/*.formregister placeholder{
 
-}
+}*/
 .select{
     background-color: #213d1e;
 }
