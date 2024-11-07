@@ -403,11 +403,14 @@ list-style-type: decimal-leading-zero;
     margin: 0 auto;
 }
 .col3 {
-    width: 33,3%;
+    width: 10%;
     float: left;
+    margin: 0 auto;
+
 }
 .col3 img{
     padding: 4px;
+    
 }
 video {
     display: block;
