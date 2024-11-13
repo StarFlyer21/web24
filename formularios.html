@@ -70,8 +70,8 @@
                 <div id="home" class="py-3">
                     <h2 class="text-center">FORMULARIOS</h2>
                 </div>
-                <h3>Formulario de login</h3>
                 <form action="#" method="get" class="formlogin">
+                    <h3>Formulario de login</h3>
                     <fieldset>
                         <legend>Login</legend>
                         <p>
@@ -85,19 +85,20 @@
                         </p>
                     </fieldset>
                 </form>
-                    <form action="#" method="get" class="formregister">
+                <form action="#" method="get" class="formregister">
+                    <h3>Formulario registro</h3>
                     <fieldset>
                         <legend>Formulario registro</legend>
                         <p> <label for="">input type text:</label>
                             <input type="text" name="user" id="" placeholder="Name">
                         </p>
-                        <p> 
+                        <p>
                             <label for="">input type password:</label>
                             <input type="password" name="password" id="" placeholder="password">
                         </p>
                         <p>Fecha Nacimiento: (Lista simple -> tag select)
                             <select name="dia" id="" class="select">
-                                <option value="1" >1</option>
+                                <option value="1">1</option>
                                 <option value="1">2</option>
                                 <option value="3">3</option>
                             </select>
@@ -112,21 +113,21 @@
                                 <option value="3">2002</option>
                             </select>
                         </p>
-                        <p>
+                        <p> <!-- El p se usa para que se quede un espaciado entre el label y el siguiente área, así no hay que meterle css -->
                             <label for="">Comentarios:</label><br />
                             <textarea name="comment" id="" cols="70" rows="7"></textarea>
                         </p>
                         <p>Comentarios (tag textarea):<br><textarea name="comentarios" id="" cols="50"
-                            rows="4"></textarea></p>
+                                rows="4"></textarea></p>
                         <p>
-                        Aficiones: (tag input type checkbox)<br>
+                            Aficiones: (tag input type checkbox)<br>
                             <input type="checkbox" name="cine" id=""> Cine <br>
                             <input type="checkbox" name="deportes" id=""> Deportes <br>
                             <input type="checkbox" name="lectura" id=""> Lectura <br>
                             <input type="checkbox" name="viajar" id=""> Viajar <br>
                         </p>
                         <p>
-                           Estado civil: (Tag input type radio) 
+                            Estado civil: (Tag input type radio)
                         </p>
                         <input type="radio" name="ec" id=""> Casado/a <br>
                         <input type="radio" name="ec" id=""> Soltero/a <br>
@@ -141,17 +142,53 @@
                             <option value="1">Toledo</option>
                         </select>
                         <p>Foto: (tag input type file) <input type="file" name="foto" id=""></p>
-                        <p><input type="submit" value="Enviar" class="btn btn-blue"></p>  
+                        <p><input type="submit" value="Enviar" class="btn btn-blue"></p>
                     </fieldset>
                 </form>
-                <form action="#" method="get" class="Inputs">
-                    <fieldset>
-                    <legend>Inputs HTML5</legend>
-                    <p>
-                        <legend>Color</legend>
+                <form action="#" method="get" class="inputs">
+                    <h3>FORMULARIO CON ELEMENTOS HTML5</h3>
+                    <p><fieldset>
+                        <legend>Inputs HTML5</legend>
+                        <label for="">Color:</label>
                         <input type="color" name="" id="">
                     </p>
-                </fieldset>
+                    <p>
+                    <label for="">Date:</label>
+                    </p>
+                    <p>
+                        <label for="">Datetime:</label>
+                    </p>
+                    <p>
+                        <label for="">Datetime-local:</label>
+                    </p>
+                    <p>
+                        <label for="">Email:</label>
+                    </p>
+                    <p>
+                        <label for="">Month:</label>
+                    </p>
+                    <p>
+                        <label for="">Number:</label>
+                    </p>
+                    <p>
+                        <label for="">Range:</label>
+                    </p>
+                    <p>
+                        <label for=""></label>
+                    </p>
+                    <p>
+                        <label for="">Tel:</label>
+                    </p>
+                    <p>
+                        <label for="">Time:</label>
+                    </p>
+                    <p>
+                        <label for="">Url:</label>
+                    </p>
+                    <p>
+                        <label for="">Week:</label>
+                    </p>
+                    </fieldset>
                 </form>
                 <div class="cb"></div>
             </div>
