@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: 'Bloodcrowc', Arial, Helvetica, sans-serif; /* Usa la fuente personalizada */
+    font-family: Arial, Helvetica, sans-serif; /* Usa la fuente personalizada */
     background-color: #1F1F1F;
 }
 @font-face {
@@ -26,6 +26,7 @@ body {
 @media screen and (max-width: 1000px) {
     .container {
         width: 100%;
+        
     }
 }
 /* For desktop: */
@@ -120,6 +121,7 @@ nav ul {
     padding: 0;
     margin: 0;
     list-style-type: none;
+    
 }
 
 nav li {
@@ -214,11 +216,13 @@ h1 {
 #btnmenu {
     font-size: 40px;
     display: none;
+    
 }
 /* For mobile: */
 @media screen and (max-width: 1000px) {
     #btnmenu {
         display: inline;
+        
     }
     #menu{
         display: none;
