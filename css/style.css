@@ -349,7 +349,7 @@ list-style-type: decimal-leading-zero;
 }
 .tablafc th {
     background-color: grey;
-    color: white;
+    color: #f0f0f0cf;
 }
 .striped tr:nth-child(odd) {
     background-color:rgb(242, 116, 116);
@@ -357,16 +357,29 @@ list-style-type: decimal-leading-zero;
     .striped tr:nth-child(even) {
     background-color:rgb(107, 239, 145);
 }
-.dam {
-    font-style: italic;
-    font-weight: bold;
-    text-align: center;
-}
 .horario {
-    width: 80%;
+    font-size: 20px;
+    width: 70%;
     margin: 0 auto;
-    background-color: #f0f0f0;
+    text-align: center;
+    background-color: #f0f0f0cf;
     color: #197f86;
+}
+.dam {
+    font-size: 26px;
+    font-style: italic;
+    
+}
+.formato {
+    color: #197f86;
+}
+table.horario td {
+    color: black;
+    
+}
+table.horario th{
+    background-color: #f0f0f0cf;
+    color: #008080;
 }
 .pimd {
     background-color: rgb(255, 177, 81);
@@ -397,11 +410,6 @@ list-style-type: decimal-leading-zero;
 }
 .ipe {
     background-color: #fe8081;
-}
-.horario{
-    text-align: center;
-    width: 80%;
-    margin: 0 auto;
 }
 .col3 {
     width: 20%;
@@ -460,4 +468,7 @@ audio {
 .btn-blue {
     background-color: rgb(22, 3, 68);
     color: white;
+}
+.forms {
+    
 }
