@@ -117,10 +117,6 @@ a
 }*/
 /* Fondo del menú distinto del fondo de la página */
 
-nav {
-    font-family: 'Bloodcrowc', Arial, Helvetica, sans-serif;
-}
-
 nav ul {
     padding: 0;
     margin: 0;
@@ -171,6 +167,7 @@ nav li a:hover {
 }
 .text-right{
     text-align: right;
+    font-family: 'Bloodcrowc', Arial, Helvetica, sans-serif;
 }
 
 a {
@@ -226,13 +223,12 @@ h1 {
 @media screen and (max-width: 1000px) {
     #btnmenu {
         display: inline;
-        
     }
     #menu{
         display: none;
     }
 }
-@media screen and (max-width: 1600px) and (min-width: 1000px)  {
+@media screen and (max-width: 1920px) and (min-width: 1080px)  {
     #menu{
         display: block;
     }
